@@ -2,7 +2,7 @@ define(function(){
   return {
     text: 'Hello world',
     fooBar: function() {
-      console.log( this.fooBar );
+      console.log( this.text );
     }
   }
 });
